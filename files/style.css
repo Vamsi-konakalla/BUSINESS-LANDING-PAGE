@@ -1,0 +1,103 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background-color: blueviolet;
+
+}
+.mains
+{
+    position: fixed;
+}
+img{
+    width: 43rem;
+    height: 40rem;
+    position: relative;
+    top: 35px;
+    left: -40px;
+    float: right;
+    
+}
+.area
+{
+    margin-left: 15rem;
+}
+nav ul li{
+   
+    display: inline-block;
+    margin-left: 5rem;
+    list-style: none;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding: 9px;
+     border-radius: 50px;
+      
+    
+}
+.high
+{
+    margin-top: 10rem;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 3rem;
+    margin-left: 4rem;
+    
+}
+.low
+{
+    margin-top: 3px;
+    margin-left: 4rem;
+    color: blanchedalmond;
+}
+
+nav ul li:hover
+{
+    background-color: white;
+    color: blueviolet;
+    
+    transform: scale(0.9);
+    transition: transform 2s;
+    cursor: pointer;
+}
+.spc
+{
+     border: 2px solid rgb(14, 116, 212);
+}
+.but
+{
+    margin-left: 4rem;
+    margin-top: 30px;
+    font-size: 1rem;
+    background-color: white;
+    color: black;
+    width: 100px;
+    padding: 9px;
+    text-align: center;
+    border-radius: 50px;
+    text-transform: capitalize;
+    cursor: pointer;
+    display: inline-block;
+}
+.tt
+{
+    
+   margin-left: 3rem; 
+   text-transform: capitalize;
+    font-size: 1rem;
+    background-color: white;
+    color: black;
+    width: 120px;
+    padding: 9px;
+    text-align: center;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: 600;
+     display: inline-block;
+  
+}
